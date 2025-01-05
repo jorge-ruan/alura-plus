@@ -210,7 +210,7 @@ body{
         background-color: var(--cor-das-letras-cinza);
         color: var(--cor-das-letras-cabecalho-vermelho);
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:1200px){
 
         .conteiner{
 
