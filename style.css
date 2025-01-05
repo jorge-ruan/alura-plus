@@ -188,6 +188,7 @@ body{
 }
 .link{
         text-decoration: none;
+        color: var(--cor-das-letras-brancas);
 }
 .rodape{
         display:flex;
@@ -195,4 +196,17 @@ body{
         text-align: center;
         align-items: center;
         gap: 30px;
+}
+.lista_links a:hover{
+
+        color: var(--cor-das-letras-cabecalho-vermelho);       
+}
+.lista_links a:active{
+
+        color: var(--cor-de-fundo-do-botao);
+}
+.conteiner__botao:hover{
+
+        background-color: var(--cor-das-letras-cinza);
+        color: var(--cor-das-letras-cabecalho-vermelho);
 }
