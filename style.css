@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,700;1,14..32,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap');
+*{
+        margin: 0;
+        padding: 0;
+}
+:root{
+       --cor-de-fundo:#00030C;
+       --cor-das-letras-brancas:#FFFFFF;
+       --cor-das-letras-cinza:#C0C0C0;
+       --cor-de-fundo-do-botao:#167BF7;
+       --cor-das-letras-cabecalho-vermelho:#EC2F46;
+       --cor-das-letras-meio-branco:#F9F9F9;
+}
+body{
+
+        background-color:var(--cor-de-fundo);
+        color:var(--cor-das-letras-brancas);
+        font-family:var(--font-principal);
+        font-weight: 400;
+        font-family: 'Inter';
+}
+.primeira_cessao_hearder{
+        background-image: url('/imagens/Background.png');   /*esse comando cria uma imagem de fundo com o endereço da imagem*/
+        background-repeat: no-repeat;                       /*impede que a imagen se repita na parte de baixo*/
+        background-size: contain;                           /* faz com que a imagem ocupe todo o espaço*/
+        align-items: center;
+        text-align: center;
+}
+.conteiner{
+        height: 100vh;                                      /*ocupa 100% da tela onde foi inserida*/
+        display: grid;
+        grid-template-columns: 50% 50%;                     /*divede a pagina web em duas paretes ocupando 50% cada*/
+}
+.div{
+        display:flex;
+        flex-direction: column;
+        max-width:588px;
+        align-items: center;
+        margin: 0 6em;
+}
+.section_imagem{
+        width:348px;
+}
+.titulo_hearder{
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;      
+}
+.section_imagem{
+        margin:2rem
+}
+.conteiner__botao{
+        background-color: var(--cor-de-fundo-do-botao);
+        color:var(--cor-das-letras-brancas);
+        border-radius: 8px;
+        padding:1rem;
+        display: block;
+        width:512px;
+        font-size: 1rem;
+        text-decoration:none;
+        font-optical-sizing: auto;
+        font-style: normal;
+        text-align: center;
+        margin-bottom: 1em ;
+}
+.conteiner__botao2{
+        color: var(--cor-das-letras-brancas);
+        background-color:transparent;
+        border: 1px solid var(--cor-das-letras-brancas);
+}
+.paragrafo_hearder{
+        color: var(--cor-das-letras-cinza);
+        font-size: 12px;
+        font-style: normal;
+}
+
+
+.primeira_cessao{
+
+        display:flex;
+        align-items: center;
+        gap:5%;
+        margin: 0 7%
+        
+}
+.primeira_imagem_principal{
+        width: 70%;
+}
+.primeira_div{
+
+        display:flex;
+        flex-direction:column;
+        align-items: start;
+        margin:2%;
+}
+.primeiro_titulo{
+    
+        font-size: 48px;
+        font-weight: 700;
+        color: var(--cor-das-letras-brancas);
+        margin-bottom:0.2rem;
+}
+.primeiro_paragrafo{
+
+        font-size:16px;
+        color: var(--cor-das-letras-cinza);
+}
+.segunda_cessao{
+
+        display:flex;
+        align-items: center;
+        margin: 0 4% 0 0.1%;
+
+}
+.segunda_div{
+
+        display:flex;
+        flex-direction:column;
+        margin: 0 8% 0 5%;
+}
+.segundo_paragrafo{
+
+        color: var(--cor-das-letras-cinza);
+}
+.primeiro_botao_principal{
+        width:162.68px;
+        margin-top: 0.9rem;
+}
+.segunda_imagem_principal{
+        width: 80%;
+        margin-right: 8%;
+}
+.terceira_cessao{
+
+        align-items: center;
+}
+.terceira_imagem_principal{
+
+        width: 80%;
+        margin: 0 0 0 7%;
+}
+.terceira_div{
+
+        display:flex;
+        flex-direction:column;
+        margin: 0 23% 0 3%;
+}
+.terceiro_titulo{
+
+    font-size:48px;
+}
+.terceiro_paragrafo{
+        color: var(--cor-das-letras-cinza);
+}
+
+.dispositivos_lista{
+
+        display:flex;
+        justify-content: center;
+        list-style-type: none;
+        margin: 4% 0;
+}
+.dispositivos{
+
+        text-align: center;
+}
+.dispositivos_titulo{ 
+
+        font-size: 48px;
+        color: var(--cor-das-letras-brancas)
+}
+.lista_item{
+
+        color: var(--cor-das-letras-brancas);
+        font-size: 32px;
+}
+.links{
+        display:flex;
+        justify-content: center;
+        gap: 15px;
+        
+}
+.lista_links{
+
+        list-style-type: none;
+}
+.link{
+        text-decoration: none;
+}
+.rodape{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 30px;
+}
